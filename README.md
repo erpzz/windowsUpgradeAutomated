@@ -1,4 +1,5 @@
 This is a two-part series of scripts designed to upgrade our computers from Windows 11 Home to Windows 11 Pro and activate the new version using a volume license key.
+The intended audience is junior sys admins, IT Support Administrators, and other IT staff
 
 Script 1: In-Place Upgrade (inPlaceUpgrade.ps1) 
 Purpose: This script upgrades our computers from Windows 11 Home to Windows 11 Pro using a special file called an ISO.

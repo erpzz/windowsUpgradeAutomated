@@ -4,7 +4,7 @@ The intended audience is junior sys admins, IT Support Administrators, and other
 Script 1: In-Place Upgrade (inPlaceUpgrade.ps1) 
 Purpose: This script upgrades our computers from Windows 11 Home to Windows 11 Pro using a special file called an ISO.
 
-What It Does
+What It Does (Script 1)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Prompts for the ISO Path: The script prompts the user to enter the path to the Windows 11 Pro ISO file.
 Starts the Upgrade: It begins the upgrade process to change your Windows 11 Home to Windows 11 Pro. 
@@ -14,7 +14,7 @@ Restarts the Computer: After the upgrade, the script restarts your computer to m
 Script 2: Activation (postUpgradeActivation.ps1)
 Purpose: This script activates the new Windows 11 Pro version on your computer using a volume license key.
 
-What It Does
+What It Does (Script 2)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Prompts for the Activation Key: The script prompts the user to enter the volume license key to activate Windows 11 Pro. Logs the Process: The script keeps a record of what it’s doing.
 Restarts the Computer (Optional): After activating, the script can restart your computer to ensure all settings are properly applied.

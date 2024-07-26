@@ -1,3 +1,4 @@
+
 # From: Eric Paiz, IT Support Specialist
 # Purpose: Post-upgrade activation of Windows 11 Pro using a volume license key.
 # This is part 2 of 2 scripts. This script will activate Windows 11 Pro after the in-place upgrade is complete.
@@ -32,6 +33,7 @@ try {
     Log-Message "Windows activated"
     # Optional: Restart the computer to ensure all settings are applied
     Log-Message "Restarting the computer to ensure all settings are applied"
+    Start-Sleep -s 5
     Restart-Computer -Force
 
 } catch {

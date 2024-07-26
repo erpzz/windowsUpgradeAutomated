@@ -43,7 +43,7 @@ try {
 
     if (Test-Path $setupPath) {
         Log-Message "Setup path found: $setupPath"
-        $process = Start-Process -FilePath $setupPath -ArgumentList "/auto upgrade" -Wait -PassThru
+        $process = Start-Process -FilePath $setupPath -ArgumentList "/auto upgrade /dynamicupdate disable" -Wait -PassThru
         Log-Message "In-place upgrade process started with ID $($process.Id)"
     } else {
         Log-Message "Setup path not found: $setupPath"
